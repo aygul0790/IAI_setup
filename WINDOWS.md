@@ -923,7 +923,7 @@ pyenv global 3.10.6
 exec zsh
 ```
 
-To check if this worked, run `python --version`. If you see `3.10.6`, perfect! If not, ask a TA that will help you debug the problem thanks to `pyenv versions` and `type -a python` (`python` should be using the `.pyenv/shims` version first).
+To check if this worked, run `python --version`. If you see `3.10.6`, perfect! If not, ask a teacher that will help you debug the problem thanks to `pyenv versions` and `type -a python` (`python` should be using the `.pyenv/shims` version first).
 
 
 ## Python Virtual Environment
