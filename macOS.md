@@ -646,7 +646,7 @@ _if you already have Docker installed on your machine please update with the lat
 
 Go to [Docker](https://docs.docker.com/get-docker/) website and choose your operating system:
 
-![](images/docker.png)
+![docker.png](images/docker.png)
 
 Then follow the setup instructions, you are going to install a desktop application.
 
