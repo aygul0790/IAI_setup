@@ -656,10 +656,6 @@ Once done and launched, check Docker is up and running:
 docker info
 ```
 
-You should get:
-
-![docker_hello.png](images/docker_hello.png)
-
 
 
 #### macOS For coders (dotfiles)
