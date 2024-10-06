@@ -887,7 +887,7 @@ python3-dev
 
 ### Install Python
 
-Let's install the [latest stable version of Python](https://www.python.org/doc/versions/) supported by Le Wagon's curriculum:
+Let's install the [latest stable version of Python](https://www.python.org/doc/versions/) supported by our curriculum:
 
 ```bash
 pyenv install 3.10.6
