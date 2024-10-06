@@ -658,7 +658,7 @@ docker info
 
 You should get:
 
-![docker_info.png](images/docker_info.png)
+![docker_hello.png](images/docker_hello.png)
 
 
 
