@@ -658,7 +658,7 @@ docker info
 
 You should get:
 
-![](images/docker_info.png)
+![docker_info.png](images/docker_info.png)
 
 
 
