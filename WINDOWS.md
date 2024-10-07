@@ -824,14 +824,14 @@ echo $GITHUB_USERNAME
 You should see your GitHub username printed. If it's not the case, **stop here** and ask for help.
 There seems to be a problem with the previous step (`gh auth`).
 
-Time to clone repo on your own laptop:
+Time to clone the above-mentioned repo on your own laptop:
 
 ```bash
 mkdir -p ~/code/$GITHUB_USERNAME && cd $_
 gh repo clone aygul0790/dotfiles
 ```
 
-Go to the `dotfiles` folder and open it in VS Code to make corrections in the files called install.sh and config (as shown in the pictures below).
+Go to the `dotfiles` folder and open it in VS Code to make corrections in the files called install.sh and config (as shown in the pictures below). You will find your own id_edXXXXX file in the hidden .ssh folder, which you can open by command: cd ~/.ssh. 
 
 ```bash
 cd ~/code/$GITHUB_USERNAME/dotfiles
