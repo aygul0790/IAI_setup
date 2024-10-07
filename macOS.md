@@ -322,6 +322,47 @@ gh auth status
 
 :x: If not, **contact a teacher**.
 
+## Dotfiles
+
+We'll start with a default configuration provided [here](https://github.com/aygul0790/dotfiles), stored on GitHub.
+
+Open your terminal and run the following command:
+
+```bash
+export GITHUB_USERNAME=`gh api user | jq -r '.login'`
+echo $GITHUB_USERNAME
+```
+
+You should see your GitHub username printed. If it's not the case, **stop here** and ask for help.
+There seems to be a problem with the previous step (`gh auth`).
+
+Time to clone the above-mentioned repo on your own laptop:
+
+```bash
+mkdir -p ~/code/$GITHUB_USERNAME && cd $_
+gh repo clone aygul0790/dotfiles
+```
+
+Go to the `dotfiles` folder and open it in VS Code to make corrections in the files called install.sh and config (as shown in the pictures below). In order to make the corrections, you will need to find your own id_edXXXXX file. It is located in the hidden .ssh folder, which you can open by command: ```bash cd ~/.ssh ```. 
+
+After finding out your own id_edXXXXX, you can proceed with the corrections in the VS code:
+
+```bash
+cd ~/code/$GITHUB_USERNAME/dotfiles
+code 
+```
+
+![config_dotfiles.png](images/config_dotfiles.png)
+![install_dotfiles.png](images/install_dotfiles.png)
+
+After the corrections made to the above two files (and saving this corrections), go to the `dotfiles` folder and run installer.
+
+```bash
+cd ~/code/$GITHUB_USERNAME/dotfiles && zsh install.sh
+```
+
+Please now **quit** all your opened terminal windows.
+
 
 ## Installing Python (with [`pyenv`](https://github.com/pyenv/pyenv))
 
