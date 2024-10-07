@@ -812,7 +812,7 @@ gh auth status
 
 ## Dotfiles
 
-We'll start with a default configuration provided [here]([https://github.com/aygul0790/dotfiles]), stored on GitHub.
+We'll start with a default configuration provided [here](https://github.com/aygul0790/dotfiles), stored on GitHub.
 
 Open your terminal and run the following command:
 
@@ -838,15 +838,17 @@ cd ~/code/$GITHUB_USERNAME/dotfiles
 code 
 ```
 
+![config_dotfiles.png](images/config_dotfiles.png)
 ![install_dotfiles.png](images/install_dotfiles.png)
 
-Run the `dotfiles` installer.
+After the corrections made to the above two files (and saving this corrections), go to the `dotfiles` folder and run installer.
 
 ```bash
 cd ~/code/$GITHUB_USERNAME/dotfiles && zsh install.sh
 ```
 
 Please now **quit** all your opened terminal windows.
+
 
 ## Disable SSH passphrase prompt
 
