@@ -831,7 +831,9 @@ mkdir -p ~/code/$GITHUB_USERNAME && cd $_
 gh repo clone aygul0790/dotfiles
 ```
 
-Go to the `dotfiles` folder and open it in VS Code to make corrections in the files called install.sh and config (as shown in the pictures below). You will find your own id_edXXXXX file in the hidden .ssh folder, which you can open by command: cd ~/.ssh. 
+Go to the `dotfiles` folder and open it in VS Code to make corrections in the files called install.sh and config (as shown in the pictures below). In order to make the corrections, you will need to find your own id_edXXXXX file. It is located in the hidden .ssh folder, which you can open by command: ```bash cd ~/.ssh ```. 
+
+After finding out your own id_edXXXXX, you can proceed with the corrections in the VS code:
 
 ```bash
 cd ~/code/$GITHUB_USERNAME/dotfiles
