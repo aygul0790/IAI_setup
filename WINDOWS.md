@@ -940,6 +940,7 @@ Then try to install Python again:
 ```bash
 pyenv install 3.10.6
 ```
+</details>
 
 <details>
   <summary>🛠 Troubleshooting `pyenv` not found and dotfiles were not installed before pyenv </summary>
