@@ -953,7 +953,7 @@ If you encounter an error `Command 'pyenv' not found` and you didn't install in 
 rm -rf ~/.pyenv
 ```
 
-2) make sure that you followed all the steps in the section **Dotfiles** above.
+2) make sure that you followed all the steps in the section **Dotfiles** above successfully.
 
 3) run the commands:
 
@@ -962,7 +962,7 @@ source ~/.zshrc
 source ~/.zprofile
 ```
 
-4) repeat all the pyenv installations again from the beggining. 
+4) repeat all the pyenv installations again from the beginning. 
 
 </details>
 
