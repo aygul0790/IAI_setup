@@ -343,19 +343,9 @@ mkdir -p ~/code/$GITHUB_USERNAME && cd $_
 gh repo clone aygul0790/dotfiles
 ```
 
-Go to the `dotfiles` folder and open it in VS Code to make corrections in the files called install.sh and config (as shown in the pictures below). In order to make the corrections, you will need to find your own id_edXXXXX file. It is located in the hidden .ssh folder, which you can open by command: ```bash cd ~/.ssh ```. 
+Make sure that you have your own id_ed25519 file which is located in the hidden .ssh folder before proceeding with the next step. You can open the folder .ssh by command: ```bash cd ~/.ssh ```. 
 
-After finding out your own id_edXXXXX, you can proceed with the corrections in the VS code:
-
-```bash
-cd ~/code/$GITHUB_USERNAME/dotfiles
-code 
-```
-
-![config_dotfiles.png](images/config_dotfiles.png)
-![install_dotfiles.png](images/install_dotfiles.png)
-
-After the corrections made to the above two files (and saving this corrections), go to the `dotfiles` folder and run installer.
+After ensuring that the file id_ed25519 is present in .ssh folder, go to the `dotfiles` folder and run installer. Otherwise, contact teacher.
 
 ```bash
 cd ~/code/$GITHUB_USERNAME/dotfiles && zsh install.sh
