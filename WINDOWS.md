@@ -963,6 +963,8 @@ source ~/.zprofile
 
 4) repeat all the pyenv installations again from the beggining. 
 
+</details>
+
 OK once this command is complete, we are going to tell the system to use this version of Python **by default**. This is done with:
 
 ```bash
