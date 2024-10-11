@@ -944,8 +944,20 @@ pyenv install 3.10.6
 If `pyenv` is still not found, contact a teacher.
 
 </details>
-<br>
+  <summary>🛠 Troubleshooting `pyenv` not found</summary>
 
+If you encounter an error `Command 'pyenv' not found` and you didn't install in the previous step dotfiles, execute the following steps:
+1) remove the .pyenv folder in '~' folder:
+```bash
+rm -rf ~/.pyenv
+```
+2) make sure that you followed all the steps in the section **Dotfiles** above.
+3) run the commands:
+```bash
+source ~/.zshrc
+source ~/.zprofile
+```
+4) repeat all the pyenv installations again from the beggining. 
 
 OK once this command is complete, we are going to tell the system to use this version of Python **by default**. This is done with:
 
