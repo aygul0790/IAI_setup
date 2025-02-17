@@ -1,6 +1,6 @@
 # Setup instructions
 
-You will find below the instructions to set up you computer for [Introduction to AI 2024 course](https://elearning.hslu.ch/ilias/ilias.php?baseClass=ilrepositorygui&ref_id=6311223)
+You will find below the instructions to set up you computer for the course.
 
 Please **read them carefully and execute all commands in the following order**. If you get stuck, don't hesitate to ask a teacher for help :raising_hand:
 
